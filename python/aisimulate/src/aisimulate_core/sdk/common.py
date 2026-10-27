@@ -709,6 +709,9 @@ DefaultHFModels = {
     "nvidia/GLM-5.2-NVFP4",
     "zai-org/GLM-5.3",
     "zai-org/GLM-5.3-FP8",
+    # Unmodified copy of nvidia/GLM-5.3-NVFP4@e3b8f9f2 (ModelOpt
+    # MIXED_PRECISION; unlisted attention and shared experts run BF16).
+    # See model_configs/GLM53_NVFP4_PROVENANCE.md.
     "nvidia/GLM-5.3-NVFP4",
     # GLM-5.3-Flash: bundled configs are byte-identical to the pinned
     # checkpoint revisions in aisimulate_core.sdk.glm53flash.MODEL_REVISIONS.
